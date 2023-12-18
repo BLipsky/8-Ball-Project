@@ -12,7 +12,7 @@ function shakeMagic8Ball() {
         return
     }
 
-    const randomNumber = Math.floor(Math.random() * 15);
+    const randomNumber = Math.floor(Math.random() * 16);
 
     let answer, color;
 
