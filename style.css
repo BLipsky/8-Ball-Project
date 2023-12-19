@@ -47,18 +47,24 @@ body {
      color: rgb(0, 0, 0);
      text-shadow: .5vw 1.5vw 2vw rgb(0, 0, 0);
      background-color: rgb(214, 179, 63);
-     border: .5vw solid black;
+     border: 5px solid black;
      box-shadow: inset .2vw .2vw 2vw .2vw black;
-     padding: 1vw;      
+     padding: 1vw;
+     font-family: Rubik Doodle Triangles;
+     font-size: 4vw;
+     display: inline-block;
+     width: 70vw;
     }
 
     .spec:hover {
       background-color: rgb(184, 156, 0);
       box-shadow: .2vw .2vw 10vw 5vw gold;
-      border: .5vw solid rgb(105, 91, 12);
+      border: 5px solid rgb(255, 226, 62);
       color: white;
-      text-shadow: .5vw 1.5vw 2vw rgb(255, 255, 255);
+      text-shadow: .5vw 1.5vw 1vw .5vw rgb(255, 255, 255);
+  
     }
     .uu {
-      width: 900px;
+      width: 750px;
     }
+    
