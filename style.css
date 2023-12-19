@@ -21,7 +21,7 @@ body {
     font-size: 40px;
     color: #ffffff;
     animation: flip 6s infinite;
-    animation-delay: calc(.9s * var(--i))
+    animation-delay: calc(.9s * var(--i));
   }
   @keyframes flip {
     0%,80% {
