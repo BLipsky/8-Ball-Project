@@ -1,5 +1,5 @@
 body {
-    background-image: radial-gradient(rgb(255, 208, 0),rgb(116, 93, 19),rgb(0, 0, 0));
+    background-image: radial-gradient(rgb(180, 161, 73),rgb(255, 215, 86),rgb(255, 229, 146));
 }
 
 .box67 {
@@ -42,4 +42,23 @@ body {
     text-shadow: .5vw 1vw 2vw rgb(255, 0, 0);
     color: rgb(119, 0, 0);
     font-size: 10vw;
+    }
+    .spec {
+     color: rgb(0, 0, 0);
+     text-shadow: .5vw 1.5vw 2vw rgb(0, 0, 0);
+     background-color: rgb(214, 179, 63);
+     border: .5vw solid black;
+     box-shadow: inset .2vw .2vw 2vw .2vw black;
+     padding: 1vw;      
+    }
+
+    .spec:hover {
+      background-color: rgb(184, 156, 0);
+      box-shadow: .2vw .2vw 10vw 5vw gold;
+      border: .5vw solid rgb(105, 91, 12);
+      color: white;
+      text-shadow: .5vw 1.5vw 2vw rgb(255, 255, 255);
+    }
+    .uu {
+      width: 900px;
     }

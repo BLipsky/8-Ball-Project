@@ -12,7 +12,7 @@ function shakeMagic8Ball() {
         return
     }
 
-    const randomNumber = Math.floor(Math.random() * 16);
+    const randomNumber = Math.floor(Math.random() * 22);
 
     let answer, color;
 
@@ -79,6 +79,30 @@ function shakeMagic8Ball() {
             break;
         case 15:
             answer = "Speak again.";
+            color = "text-dark"
+            break;
+        case 16:
+            answer = "My sources say yes.";
+            color = "text-dark"
+            break;
+        case 17:
+            answer = "It is impossible.";
+            color = "text-dark"
+            break;
+        case 18:
+            answer = "Unfortunately Not.";
+            color = "text-dark"
+            break;
+        case 19:
+            answer = "It Is Highly Probable.";
+            color = "text-dark"
+            break;
+        case 20:
+            answer = "That is Entirely Possible.";
+            color = "text-dark"
+            break;
+        case 21:
+            answer = "I think Yes...";
             color = "text-dark"
             break;
     }
