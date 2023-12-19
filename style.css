@@ -68,4 +68,10 @@ body {
     .uu {
       width: 750px;
     }
-    
+    .pad1 {
+      padding-left: 1vw;
+    }
+    .pad2 {
+      padding-right: 1vw;
+
+    }
