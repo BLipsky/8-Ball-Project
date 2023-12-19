@@ -54,6 +54,7 @@ body {
      font-size: 4vw;
      display: inline-block;
      width: 70vw;
+     border-radius: 4vw;
     }
 
     .spec:hover {
